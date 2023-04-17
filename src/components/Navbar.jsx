@@ -28,9 +28,9 @@ const Navbar = () => {
             <li><Link  to="skills"  smooth={true}  duration={500} >
           Skills
         </Link></li>
-            <li><Link  to="work"  smooth={true}  duration={500} >
+            {/* <li><Link  to="work"  smooth={true}  duration={500} >
           Work
-        </Link></li>
+        </Link></li> */}
             <li><Link  to="contact"  smooth={true}  duration={500} >
           Contact
         </Link></li>
@@ -53,11 +53,11 @@ const Navbar = () => {
             <li className='py-6 text-4xl'><Link onClick={handleClick} to="skills"  smooth={true}  duration={500} >
           Skills
         </Link></li>
-            <li className='py-6 text-4xl'><Link onClick={handleClick} to="work"  smooth={true}  duration={500} >
+            {/* <li className='py-6 text-4xl'><Link onClick={handleClick} to="work"  smooth={true}  duration={500} >
           Work
-        </Link></li>
+        </Link></li> */}
             <li className='py-6 text-4xl'><Link onClick={handleClick} to="contact"  smooth={true}  duration={500} >
-          Skills
+          Contact
         </Link></li>
         </ul>
 
@@ -73,7 +73,7 @@ const Navbar = () => {
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                 <a  className='flex justify-between items-center w-full text-black'
-                href="/">
+                href="https://github.com/Umakanth3132" target="_blank">
                 GitHub<FaGithub size={30}/>
 
                 </a>
@@ -81,7 +81,7 @@ const Navbar = () => {
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                 <a  className='flex justify-between items-center w-full text-black'
-                href="/">
+                href="mailto:reddy.58@wright.edu" target="_blank">
                 Email<HiOutlineMail size={30}/>
 
                 </a>
@@ -89,7 +89,7 @@ const Navbar = () => {
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                 <a  className='flex justify-between items-center w-full text-black'
-                href="/">
+                href="https://docs.google.com/document/d/1JhFtmbVk8_GnIednwCZOAGiMM3x44DvZ6EtveKXCIRI/edit" target="_blank">
                 Resume<BsFillPersonLinesFill size={30}/>
 
                 </a>

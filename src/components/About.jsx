@@ -17,7 +17,7 @@ const About=()=>{
                             <p>Hi. I'm Umakanth, nice to meet you. Please take a look around.</p>
                         </div>
                         <div>
-                            <p>As a recent graduate with a degree in Computer Science, I possess strong analytical and problem-solving skills and with Data Structure and Algorithm which are essential for a software engineer role. In addition, I have experience with programming languages such as Java, Python, and Javascript. With my knowledge and skills, I am confident in my ability to excel in an entry-level software engineer position.
+                            <p>As a software engineer with 2 years of experience working as a Full Stack Developer at Enterprise Organizations. I have been responsible for solving business problems of different sectors by building scalable and effective web applications. I possess strong analytical and problem-solving skills and with Data Structure and Algorithm which are essential for Developer roles.
 </p>
 
                         </div>

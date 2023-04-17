@@ -13,6 +13,8 @@ import js from '../assests/javascript.png'
 import bootstrap from '../assests/Bootstrap.png'
 import tailwind from '../assests/tailwind.png'
 import aws from '../assests/aws.png'
+import docker from '../assests/Docker.png'
+import Python from '../assests/Python.png'
 
 const Skills = () => {
   return (
@@ -20,7 +22,7 @@ const Skills = () => {
         <div className='max-w-[1000px] mx-auto px-4 flex flex-col justify-center w-full h-full '>
             <div >
                 <p className='  text-4xl font-bold inline border-b-4 border-pink-600 '>Skill Set</p>
-                <p className='py-4'>Back-end Technology</p>
+                {/* <p className='py-4'>Back-end Technology</p> */}
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
@@ -55,11 +57,15 @@ const Skills = () => {
                 <img className='w-20 mx-auto' src={aws} alt="AWS icon"></img>
                 <p className='my-4'>AWS</p>
             </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={docker} alt="DOCKER icon"></img>
+                <p className='my-4'>DOCKER</p>
             </div>
-            <div >
+            </div>
+            {/* <div >
                 
                 <p className='py-4'>Front-end Technology</p>
-            </div>
+            </div> */}
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
             
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
@@ -89,6 +95,10 @@ const Skills = () => {
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={tailwind} alt="TAILWIND icon"></img>
                 <p className='my-4'>TAILWIND</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={tailwind} alt="PYTHON icon"></img>
+                <p className='my-4'>PYTHON</p>
             </div>
 
             </div>
