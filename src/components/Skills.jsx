@@ -97,7 +97,7 @@ const Skills = () => {
                 <p className='my-4'>TAILWIND</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={tailwind} alt="PYTHON icon"></img>
+                <img className='w-20 mx-auto' src={Python} alt="PYTHON icon"></img>
                 <p className='my-4'>PYTHON</p>
             </div>
 
